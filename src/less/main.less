@@ -1,0 +1,42 @@
+@import url("./variables.less");
+@import url("./general.less");
+.main {
+  margin: 252px auto 0;
+  text-align: center;
+  h1 {
+    color: @textMain;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  h2 {
+    color: @white;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 3.28px;
+  }
+}
+.pass-container {
+  position: relative;
+}
+.privacy {
+  font-size: 11px;
+  font-weight: 500px;
+  padding: 15px 0 22px 0;
+  color: @white;
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+@media screen and (max-width: @tablet) {
+  .main {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 28px;
+    }
+  }
+}

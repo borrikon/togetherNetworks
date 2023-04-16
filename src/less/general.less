@@ -1,0 +1,47 @@
+.offscreen {
+  position: absolute;
+  left: -1000000px;
+  top: 0;
+}
+.container {
+  width: "100%";
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.background {
+  background: url("../img/bg.png") center / cover no-repeat;
+  height: 100vh;
+}
+.invalid {
+  background: #e22a32;
+  color: @white;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 12px 10px;
+  border-radius: 4px;
+  position: absolute;
+  width: calc(100% - 13px);
+  bottom: -40px;
+  left: 0;
+}
+.btn {
+  color: @white;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: all 0.3s ease-in;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 17px rgba(43, 160, 234, 0.66);
+  }
+}
+@media screen and (max-width: @tablet) {
+  .container {
+    padding: 0 10px;
+  }
+  .invalid {
+    bottom: -55px;
+    width: 100%;
+  }
+}

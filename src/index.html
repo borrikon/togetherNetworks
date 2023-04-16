@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+    <title>Star Company | Main</title>
+  </head>
+  <body>
+    <section class="background">
+      <section class="container">
+        <header class="header">
+          <figure class="img-container">
+            <img class="img-logo" src="img/logo.png" alt="Logo Star Company" />
+            <figcaption class="offscreen">Star company logo</figcaption>
+          </figure>
+          <form method="post" class="login-form">
+            <div class="input-cont">
+              <input class="email-login" type="email" placeholder="Email" />
+              <div class="invalid">Please enter a valid email address</div>
+            </div>
+            <div class="input-cont">
+              <input
+                class="pass-login"
+                type="password"
+                placeholder="Password"
+              />
+              <a id="forgotPass" href="#">Forgot your password?</a>
+            </div>
+            <button class="btn-login">Log in</button>
+          </form>
+        </header>
+
+        <main class="main">
+          <h1>StarCompany DESIGNS, MANUFACTURES AND</h1>
+          <h2>Launches Advanced Rockets and Spacecrafts</h2>
+          <div class="slider-cont">
+            <button class="prev-arrow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="17"
+                viewBox="0 0 10 17"
+              >
+                <g>
+                  <g opacity="1">
+                    <path
+                      fill="#fff"
+                      d="M10.012 1.42L2.932 8.5l7.08 7.08-1.432 1.432-7.08-7.08-.08.08L-.013 8.58l.08-.08-.08-.08L1.42 6.988l.08.08 7.08-7.08z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </button>
+            <section class="slider-container">
+              <div class="slider-item-cont slier-item-styled">
+                <p>Who are you?</p>
+                <div class="select-item">
+                  <select id="proff">
+                    <option value="engineer" selected>Engineer</option>
+                    <option value="business development executive">
+                      Business Development Executive
+                    </option>
+                    <option value="office manager/pa">Office Manager/PA</option>
+                    <option value="accountant">Accountant</option>
+                    <option value="vr designer">VR Designer</option>
+                  </select>
+                </div>
+              </div>
+              <div class="slider-item-cont slier-item-styled">
+                <p>What is your age?</p>
+                <div class="select-item">
+                  <select id="age">
+                    <option value="graiter than 21">19</option>
+                    <option value="graiter than 21">20</option>
+                    <option value="21" selected>21</option>
+                    <option value="less then 21">22</option>
+                  </select>
+                </div>
+              </div>
+              <div class="slier-item-styled">
+                <p>I am from</p>
+                <input id="adress" type="text" placeholder="New Roads, 70760" />
+              </div>
+              <div class="slier-item-styled">
+                <p>Your email adress</p>
+                <input id="email" type="email" placeholder="Input your email" />
+              </div>
+              <div>
+                <div class="slier-item-styled">
+                  <p>Create your password</p>
+                  <input
+                    id="password"
+                    type="password"
+                    placeholder="Create your password"
+                  />
+                </div>
+                <p class="privacy">
+                  By clicking the button above you agree to our
+                  <a href="#">Terms of Use</a> and
+                  <a href="#">Privacy Policy</a> including use of cookies and to
+                  receive newsletters, account updates and offers sent by
+                  StarCompany.
+                </p>
+              </div>
+            </section>
+            <button id="lastBtn" class="next-arrow btn finish">
+              Start now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="12"
+                viewBox="0 0 18 12"
+              >
+                <g>
+                  <g>
+                    <path
+                      fill="#fff"
+                      d="M17.485 1.586l-9.9 9.9-1.413-1.415L.515 4.414 1.929 3l5.657 5.657L16.07.172z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </button>
+            <button id="nextBtn" class="next-arrow btn">
+              Next step
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="17"
+                viewBox="0 0 10 17"
+              >
+                <g>
+                  <g opacity="1">
+                    <path
+                      fill="#fff"
+                      d="M10.012 1.42L2.932 8.5l7.08 7.08-1.432 1.432-7.08-7.08-.08.08L-.013 8.58l.08-.08-.08-.08L1.42 6.988l.08.08 7.08-7.08z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </button>
+          </div>
+        </main>
+      </section>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
