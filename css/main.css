@@ -607,6 +607,9 @@
 .slier-item-styled select:hover {
   cursor: pointer;
 }
+.slier-item-styled select {
+  padding: 21px 0;
+}
 .slier-item-styled p {
   margin-bottom: 5px;
 }
