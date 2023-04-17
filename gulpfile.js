@@ -21,8 +21,8 @@ function styles() {
 
 function scripts() {
   return src("./src/js/**/*.js")
-    .pipe(concat("main.js"))
-    .pipe(dest("./dist/js"));
+    .pipe(concat("index.js"))
+    .pipe(dest("./src/js"));
 }
 function watchTask() {
   watch("./src/**/*.html", browsersyncReload);
