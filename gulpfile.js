@@ -27,7 +27,7 @@ function scripts() {
 function watchTask() {
   watch("./src/**/*.html", browsersyncReload);
   watch("./src/css/*.css", browsersyncReload);
-  watch(["./src/less/**/*.less", "./src/js/**/*.js"], series(styles, scripts));
+  watch(["./src/less/**/*.less", "./src/js/**/*.js"], series(styles));
 }
 function browsersyncServe(cb) {
   browserSync.init({
